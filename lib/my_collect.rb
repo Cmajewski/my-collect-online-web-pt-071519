@@ -5,3 +5,5 @@ while i<array.length
   i=i+1
 end
 end
+
+yield(array) {|language| language.upcase}
