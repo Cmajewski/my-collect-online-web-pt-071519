@@ -6,4 +6,4 @@ while i<array.length
 end
 end
 
-yield(array) {|language| language.upcase}
+
