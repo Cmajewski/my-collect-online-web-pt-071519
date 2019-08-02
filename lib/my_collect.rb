@@ -1,5 +1,5 @@
 collection=["Tim Jones", "Tom Smith", "Jim Campagno"]
-collection = ['ruby', 'javascript', 'python', 'objective-c']
+collection =
 def my_collect(collection)
   i=0
   new_collection=[]
@@ -9,6 +9,4 @@ while i<correction.length
 end
 end
 
-yield(collection) do |language|
-  lang.upcase
-end
+yield(['ruby', 'javascript', 'python', 'objective-c']) {|language| lang.upcase}
