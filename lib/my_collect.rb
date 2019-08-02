@@ -9,6 +9,6 @@ while i<correction.length
 end
 end
 
-yield(collection) do |language| 
+yield(collection) do |language|
   lang.upcase
 end
