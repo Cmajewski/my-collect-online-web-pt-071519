@@ -1,5 +1,5 @@
 def my_collect(array)
-  if is_block?
+  if block_given?
   yield
 else
   puts "There is no block!"
