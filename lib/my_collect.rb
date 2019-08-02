@@ -1,7 +1,7 @@
 def my_collect(array)
-if array.length=0
-  puts "The collection is empty!"
-else
-
+  i=0
+while i<array.length
+  yield
+  i=i+1
 end
 end
