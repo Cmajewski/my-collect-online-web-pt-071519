@@ -9,4 +9,4 @@ while i<collection.length
 end
 end
 
-collection(['ruby', 'javascript', 'python', 'objective-c']) { |language| lang.upcase}
+collection(['ruby', 'javascript', 'python', 'objective-c']) { |lang| lang.upcase}
